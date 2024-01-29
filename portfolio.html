@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="assets/images/logo/logo-white.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-text">
+            <p><strong><span><u>FULLSTACK WEB DEV</u></span></strong></p>
+            <h1>Hello! I'm Amey Kadam<br>RAIT(2022-2026)</h1>
+        </div>
+    </div>
+</div>
+
+
+<!---ABOUT--->
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/images/about/about1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a sophomore at RAIT, Dept. of Computer Engineering, which is a widely recognized institute, renowned in India.
+                    <br>
+                    <br>
+                    I am currently on projects on GitHub which were made using Python, Django, HTML, CSS, Bootstrap.
+                    <br>
+                    <br>
+                    I've always loved coming up with creative answers to problems and solving them, and I've always been fascinated by how computers, everyday technology, and software function. As I start my career in the IT sector, I can't wait to use my practical experience and understanding of several programming languages to contribute significantly to the profession.
+                </p>   
+
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skillsets</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Front-end of Websites</li>
+                        <li><span>Web Development</span><br>Designing Web Applications</li>
+                        <li><span>DSA</span><br>Data Structures</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Made project in Full-Stack</li>
+                        <li><span>2022</span><br>Started my Programming</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-2026</span><br>RAIT</li>
+                        <li><span>2020-2022</span><br>RFS</li>
+                        <li><span>2020-2008</span><br>SMIS</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!---SERVICES--->  
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="bi bi-code-slash"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus laudantium dolore eius voluptatum ipsum similique, officia sunt consequatur excepturi odit! Adipisci iusto aliquid obcaecati laboriosam, cum repellat praesentium ullam.</p>
+                    <a href="#">Learn more</a>
+                </div>   
+
+                <div>
+                    <i class="bi bi-crop""></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus laudantium dolore eius voluptatum ipsum similique, officia sunt consequatur excepturi odit! Adipisci iusto aliquid obcaecati laboriosam, cum repellat praesentium ullam.</p>
+                    <a href="#">Learn more</a>
+                </div>   
+                
+                <div>
+                    <i class="bi bi-body-text"></i>
+                    <h2>DSA</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus laudantium dolore eius voluptatum ipsum similique, officia sunt consequatur excepturi odit! Adipisci iusto aliquid obcaecati laboriosam, cum repellat praesentium ullam.</p>
+                    <a href="#">Learn more</a>
+                </div>   
+            </div>
+    </div>
+</div>
+
+
+<!---PORTFOLIO--->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="assets/images/my_work/work1.jpg" alt="">
+                        <div class="layer">
+                            <h3>ACE - Academic, Companion & Explorer</h3>
+                            <p>It was a small web development project to aid students with their personal college work. <br>
+                                It was a project made with Python and Django for the backend <br> and Bootstrap (HTML + CSS) for the Frontend.</p>
+                            <a href="https://github.com/Draxiote/ACE" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                </div>
+
+                <div class="work">
+                    <img src="assets/images/my_work/work2.jpg" alt="">
+                        <div class="layer">
+                            <h3>APAS - Automatic Parking Assistant System</h3>
+                            <p>A project made using Python and Django for Backend along with CSS and HTML for Frontend to make a website that can be used to manage big society and provide an efficient solution to the parking problems in for their respective issues.<br> It was also laced with social functions as well.</p>
+                            <a href="https://github.com/aviation-speedbird/APAS" target="_blank"><i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                </div>
+            </div>
+            <a href="https://github.com/Draxiote?tab=repositories" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!---CONTACT--->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="bi bi-google"></i> xyzad112@gmail.com</p>
+                
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/draxiote/" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://twitter.com/draxiote" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://github.com/Draxiote" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/amey-kadam-8286b8171/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+        <div class="copyright">
+            <p>Copyright © Draxiote : Portfolio Website (2024)</p>
+        </div>
+</div>
+
+
+
+
+
+<script>
+
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+</body>
+</html>
